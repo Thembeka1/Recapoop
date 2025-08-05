@@ -6,7 +6,7 @@ class BankAccount { #balance = 0; constructor(owner)
             { console.log("Insufficient funds"); } else { this.#balance -= amount; 
                 console.log(`Withdrew: ${amount}`); } } get balance()
                  { return this.#balance; } } 
-                 const account = new BankAccount("Thomas"); 
+                 const account = new BankAccount("Thembeka"); 
                  account.deposit(1000); 
                  account.withdraw(500); 
                  console.log(account.balance);
